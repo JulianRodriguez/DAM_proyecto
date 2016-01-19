@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IV Festival nacional de cine de Cádiz</title>
+	<!--CSS-->
+	<link href="style/960.css" rel="stylesheet">
+	<link href="style/navBar.css" rel="stylesheet">
+	<link href="style/footer.css" rel="stylesheet">
+	<link href="style/main.css" rel="stylesheet">
+	<!--Fuentes-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
+	<!--JS-->
+    <script src="js/jquery-latest.js"></script>
+</head>
+<body>
+	<header class="container_12">
+		<!--HEADER Y BACKGROUND-->
+		<div class="grid_12">
+		    <div id="main">
+                <h1>IV Festival nacional de cine de Cádiz</h1>
+			    <p>Septiembre 5-11, 2016</p>
+		    </div>
+		</div>
+		<div class="clear"></div>
+		
+		<!--EMPIEZA NAVBAR-->
+		<nav id='cssmenu' class="grid_12">
+			<ul>
+			   <li><a href='index.html'><span> Inicio</span></a></li>
+			   <li class=''><a href='programacion.html'><span> Programación</span></a></li>
+			   <li class='has-sub'><a><span> Películas</span></a>
+				 <ul>
+					 <li class='has-sub'><a><span>Animación</span></a>
+						<ul>
+						   <li><a href='viaje.html'><span>El viaje de Chihiro</span></a></li>
+						   <li><a href='pesadillas.html'><span>Pesadillas antes de Navidad</span></a></li>
+						   <li><a href='toys.html'><span>Toy Story</span></a></li>
+						</ul>
+					 </li>
+				
+					 <li class='has-sub'><a><span>Ciencia Ficción</span></a>
+						<ul>
+						  <li><a href='odisea.html'><span>2001 odisea en el espacio</span></a></li>
+						   <li><a href='futuro.html'><span>Regreso al Futuro</span></a></li>
+						   <li><a href='starwars.html'><span>La guerra de las galaxias. Episodio V: El imperio contraataca</span></a></li>
+						</ul>
+					 </li>
+					 <li class='has-sub'><a><span>Drama</span></a>
+						<ul>
+						   <li><a href='whiplash.html'><span>Whiplash</span></a></li>
+						   <li><a href='padrino.html'><span>El Padrino</span></a></li>
+						   <li><a href='cadena.html'><span>Cadena Perpetua</span></a></li>
+						</ul>
+					 </li>
+				  </ul>
+			   </li>
+			   <li class='active has-sub'><a><span> Directores</span></a>
+					<ul>
+						<li><a href='tarantino.html'><span>Quentin Tarantino</span></a></li>
+						<li><a href='steven.html'><span>Steven Spielberg</span></a></li>
+						<li><a href='stanley.html'><span>Stanley Kubrick</span></a></li>
+						<li><a href='francis.html'><span>Francis Ford Coppola</span></a></li>
+						<li><a href='peter.html'><span>Peter Jackson</span></a></li>
+						<li><a href='james.html'><span>James Cameron</span></a></li>
+					</ul>
+			   </li>
+			   <li><a href='galeria.html'><span> Galería</span></a></li>
+			   <li><a href='estadisticas.html'><span> Estadísticas</span></a></li>
+			   <li class='active has-sub'><a><span> Ciudad</span></a>
+					<ul>
+						<li><a href='edificio.html'><span>Edificio</span></a></li>
+						<li><a href='gastronomia.html'><span>Gastronomia</span></a></li>
+						<li><a href='lugares.html'><span>Lugares</span></a></li>
+				 	</ul>
+				</li>
+				<li><a href='juega.html'><span> Juega</span></a></li>
+			</ul>
+		</nav>		
+		<!--FIN NAVBAR-->
+		<div class="clear"></div>
+	</header>
+	
+<!--------FIN HEADER, COMIENZO DEL CUERPO PRINCIPAL---------->
+    
+	<section class="container_12">
+		<div id="white">           
+			
+				<article class="grid_12">
+					<h2>Inicio</h2>
+					<div id="line"></div>
+					<p>Bienvenidos al</p>
+					<!--EMPIEZA CANVAS-->
+                    <canvas id="canvas" width="900" height="85">Navegador no compatible con Canvas.</canvas>
+                    <script>
+                        var canvas = document.getElementById('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var link = document.createElement('link');
+                        link.rel = 'stylesheet';
+                        link.type = 'text/css';
+                        link.href = 'https://fonts.googleapis.com/css?family=Roboto:300';
+                        document.getElementsByTagName('head')[0].appendChild(link);
+
+                        var image = new Image;
+                        image.src = link.href;
+                        image.onerror = function() {
+                            ctx.font = '40px "Roboto"';
+                            ctx.textBaseline = 'top';
+														ctx.fillStyle = '#212121';
+                            ctx.fillText('IV Festival nacional de cine de Cádiz', 125, 30);
+													
+                        };
+                    </script>
+            <!--FIN CANVAS-->
+			</article>
+		
+        <article class="grid_12">
+		    <h3>Edificio</h3>
+		    
+		    <div id="line"></div>
+		    <img id="centrado" src="images/Edificio/1.jpg" alt="edificio">
+		    <p>El Parque Genovés situado en la ciudad de Cádiz (España) es el jardín público o parque más destacado de la ciudad. Se encuentra ubicado en el casco histórico, junto al mar. Su origen está a finales del XVIII, aunque a lo largo de su historia, ha sufrido diversas ampliaciones y remodelaciones.</p>
+				
+		<p>	A finales del siglo XVIII se crea un primer parque en los terrenos situados entre los cuarteles del Camposanto y de la Bomba y la muralla que limitaba con el mar. Era un paseo mal cuidado y desarbolado que era conocido popularmente como el Paseo del Perejil, lo que da idea de lo modesto de sus jardines.</p>
+<p>
+En 1854 sufrió diversas ampliaciones y cambió su nombre por Paseo de las Delicias. El motivo de la ampliación fue la epidemia de cólera que padeció Cádiz en esa época y la de dar trabajo a todas aquellas personas que se encontraban necesitadas y a las que había que darle ocupación. En 1863 se demolió el Cuartel de la Columela, repoblándose el solar con frondosos árboles de distintas especies, entre las que predominaban, fundamentalmente, según documentos de la época, el ciprés americano. En 1875 y a causa de lo espacioso y bien ubanizado del parque, al que se le realizarían nuevas reformas, se conmemoraron las fiestas de la Velada de los Ángeles.</p>
+			
+		<p>La más importante de sus remodelaciones fue llevada a cabo en 1892 por el jardinero valenciano Gerónimo Genovés i Puig del cual recibió su nombre, ya que éste fue cambiado por el actual de Parque Genovés. Se tomó como base el antiguo jardín y se amplió con el denominado Bosque del Ejército, dotándolo con fuentes, cascada con lago, salón de conciertos y café, así como de un número más alto y variado de especies botánicas, algunas de ellas de gran rareza y espectacularidad.</p>
+			
+		</article>
+		
+		<article class="grid_12">
+			<div id="line"></div>
+			<h3>Ciudad</h3>
+			<div id="line"></div>
+			<img id="centrado" src="images/Ciudad/ciudad1.jpg" alt="edificio">
+			<p>Cádiz es una ciudad y municipio español, capital de la provincia española homónima, en la comunidad autónoma de Andalucía (España). Está situada al sur de la península ibérica, en el extremo suroccidental de la Europa continental. Cádiz, conforma junto a los municipios de Chiclana de la Frontera, El Puerto de Santa María, Jerez de la Frontera, Puerto Real, Rota y San Fernando la Mancomunidad de Municipios Bahía de Cádiz.
+</p>
+			<p>Con 120.468 habitantes es la segunda más poblada de la provincia por detrás de Jerez de la Frontera con 212.876 habitantes, y la primera de la Bahía de Cádiz. Su economía está basada, principalmente, en el sector del comercio, debido a la presencia de los astilleros y las actividades de la zona portuaria y de la Zona Franca. El otro sector base de la economía gaditana es el turismo, debido a sus playas, a las fiestas locales y al importante patrimonio histórico que posee.</p>
+			
+			<p>Hoy en día Cádiz es conocida sobre todo por su larga e influyente historia, (es la ciudad más antigua de Europa occidental y con restos arqueológicos datados en 3100 años) no sólo en el ámbito nacional sino también por su importancia en procesos como las guerras púnicas, la romanización de Iberia, el descubrimiento y conquista de América o la instauración del régimen liberal en España con su primera constitución. así como su influencia posterior de ésta para las constituciones de las excolonias españolas independizadas. Toda la ciudad alberga numerosas plazas, jardines, iglesias y otros emplazamientos que así lo recuerdan.</p>
+		
+		
+		</article>
+		
+		<div class="clear"></div>
+       
+        <article class="grid_12">
+            <div id="line"></div>
+		    <h3 id="home_dise">Top 10 películas más taquilleras de la historia</h3>
+		    <div id="line"></div>
+
+		    <p>Esta es la lista con las 10 películas mas taquilleras del mundo. Este ranking esta basado en la recaudación mundial en dólares total por película.</p>
+            <div id="textoCentrado" class="grid_6">
+                <ol>
+                    <li>Avatar</li>
+                    <li>Titanic</li>
+                    <li>Jurassic World</li>
+                    <li>Star Wars: Episode VII - The Force Awakens</li>
+                    <li>The Avengers</li>
+					<li>Furious 7</li>
+                    <li>Avengers: Age of Ultron</li>
+                    <li>Harry Potter and the Deathly Hallows - Part 2</li>
+                    <li>Frozen</li>
+                    <li>Iron Man 3</li>
+					
+                </ol>
+		    </div>
+           <div id="textoCentrado" class="grid_6">
+                <ul> 
+                    <li>$2.782.275.172</li>
+                    <li>$2.186.772.302</li>
+                    <li>$1.668.984.926</li>
+                    <li>$1.570.398.252</li>
+                    <li>$1.519.557.910</li>
+										<li>$1.515.047.671</li>
+                    <li>$1.405.035.767</li>
+                    <li>$1.341.511.219</li>
+                    <li>$1.274.219.00</li>
+                    <li>$1.215.439.994</li> 
+                </ul>
+            </div>
+        </article>
+		
+		</div> 
+	</section>
+	
+	<!--FOOTER-->
+	<footer class="container_12">
+       <div id="footer" class="grid_12">
+           <nav>
+            <ul id="demo-nav">
+               <div id="social">
+                <li><a id="Twitter" href='http://www.twitter.com/#'><span>Twitter</span></a></li>
+                <li><a id="Facebook" href='http://www.facebook.com/#'><span>Facebook</span></a></li>
+                <li><a id="Google" href='http://plus.google.com'><span>GooglePlus</span></a></li>
+                </div>
+            </ul>
+          </nav>
+          <div class="container">
+              <p class="credit">&copy; 2016 - Manuel Bonat Lucia & Julián Rodríguez Cárave</p>
+          </div>
+	  </div>
+	  <div class="clear"></div>
+	</footer>
+</body>
+</html>
